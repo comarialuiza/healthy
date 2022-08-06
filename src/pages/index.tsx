@@ -1,9 +1,10 @@
+import MedicineList from 'components/MedicineList/MedicineList';
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
 	return (
-		<div>oi</div>
-	)
-}
+		<MedicineList/>
+	);
+};
 
 export default Home;
